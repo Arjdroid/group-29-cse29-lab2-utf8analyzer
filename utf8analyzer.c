@@ -22,8 +22,8 @@ int main(int argc, char *argv[]) {
     }
 
     bool isvalid = validity_check(argv[1]);
-    if (isvalid) { printf("yay\n"); }
-    else { printf("nay\n"); }
+    if (isvalid) { printf("Valid ASCII: true\n"); }
+    else { printf("Valid ASCII: false\n"); }
 }
     // implement the UTF-8 analyzer here
 
