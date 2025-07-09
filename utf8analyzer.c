@@ -15,6 +15,7 @@ bool validity_check(char input[]) {
 	return true;
 }
 
+
 void capitalizeLowerCaseLetter(char stringFromInput[]){
 	int index =0; 
 	while(stringFromInput[index]!= '\0'){
@@ -30,6 +31,8 @@ void capitalizeLowerCaseLetter(char stringFromInput[]){
 	}
 }
 
+
+
 int main(int argc, char *argv[]) {
     if (argc != 2) {
         fprintf(stderr, "Usage: utf8analyzer \"<UTF-8 encoded string>\"\n");
@@ -40,9 +43,12 @@ int main(int argc, char *argv[]) {
     if (isvalid) { printf("Valid ASCII: true\n"); }
     else { printf("Valid ASCII: false\n"); }
 
+
     char supposedToReturn[] = "HELLO";
     capitalizeLowerCaseLetter(argv[1]);
     
+
+
 }
     // implement the UTF-8 analyzer here
 
