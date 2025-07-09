@@ -44,8 +44,10 @@ int main(int argc, char *argv[]) {
     else { printf("Valid ASCII: false\n"); }
 
 
-    char supposedToReturn[] = "HELLO";
+    // char supposedToReturn[] = "HELLO";
+    printf("Uppercased ASCII: ");
     capitalizeLowerCaseLetter(argv[1]);
+    printf("\n");
     
 
 
